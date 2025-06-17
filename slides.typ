@@ -6,11 +6,9 @@
   aspect-ratio: "16-9",
   config-info(
     title: [LLM, Agentes, Workflows],
-    subtitle: [Guia Prático para Iniciantes em Agentes e Código],
+    subtitle: [Construindo Aplicações com LLMs],
     author: [Leonardo Mosimann Conti],
-    date: [16/06/2025 23:48], // Current date and time
-    institution: [xAI Workshop],
-    logo: emoji.robot,
+    date: [17/06/2025 02:16],
   ),
 )
 
@@ -20,7 +18,7 @@
 // -----------------------------------------------------------------------------
 // 0. Capa
 = Construindo Aplicações com LLMs
-*Workshop de 2h+*
+*Workshop Evoluum*
 
 - Não é tutorial · dicas reais
 - Mão na massa · interativo
@@ -426,7 +424,8 @@ export async function callStructured<T>(
 - Workflows primeiro, agents depois
 - MCP é seu catálogo de ferramentas
 - Cursor turbina seu código
-- **Desafio**: o que você vai testar amanhã?
+- *Desafio*: o que você vai testar?
+- Como eu posso ajudar a tirar todas as duvias para comecarmos a aplicar?
 #speaker-note[
   Fecha com gás. Pede algo concreto pra levarem.
 ]
