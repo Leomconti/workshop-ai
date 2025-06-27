@@ -13,7 +13,6 @@
 )
 
 #set text(font: "Roboto")
-#set heading(numbering: numbly("{1}.", default: "1.1"))
 
 // -----------------------------------------------------------------------------
 // 0. Capa
@@ -255,7 +254,8 @@ Demonstre que o LLM assume o papel de PO júnior - extrai atores, ações e praz
 == Contexto Rico: Faça do Seu Jeito
 
 - Contexto otimizado:
-  ```plaintext
+
+#text(size: 17pt)[```txt
   <slack_message from="@alex" channel="#deployments">
     Deploy o backend?
   </slack_message>
@@ -264,7 +264,9 @@ Demonstre que o LLM assume o papel de PO júnior - extrai atores, ações e praz
   </tool_executed>
   Próximo passo?
   ```
-- Você decide como o LLM "enxerga" o contexto
+]
+
+- Você decide como o LLM "enxerga" o contexto, use ao seu favor
 
 // -----------------------------------------------------------------------------
 // 14. Mini-Demo #1
